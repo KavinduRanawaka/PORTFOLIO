@@ -7,6 +7,71 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hii</h1>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+              <p>UI/UX Designer</p>
+              <h1>Hi, I'm <span>Kavindu</span> Nimesh <br>From Gampaha</h1>   
+            </div>
+        </div>
+    </div>
+
+    <!------about---->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I’m Kavindu Nimesh, an undergraduate student specializing in 
+                        Computing and Information Systems. My portfolio is a reflection of my
+                         journey in the tech world, showcasing a range of projects that highlight 
+                         my skills in web development, database management, data mining, and
+                          UI/UX design.</p>
+
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                      </div>  
+                      <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Advanced Database Managemnt</span><br>my sql,Mongodb</li>
+                        </ul>
+                      </div>  
+                       
+                      <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020 - Current</span><br>Tution Teacher</li>
+                            <li><span>2021-2022</span><br>Customer Relation Officer at LB finance PLC.</li>
+                        </ul>
+                      </div> 
+                      
+                      <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - Current</span><br>undergraduate student specializing in Computing and Information Systems</li>
+                            <li><span>2020 - 2021</span><br>Diploma from Britishway English Academy</li>
+                            <li><span>2016 - 2019</span><br>Advanced Level in Maths stream</li>
+                        </ul>
+                      </div> 
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
