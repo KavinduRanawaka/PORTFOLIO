@@ -263,4 +263,9 @@ nav ul li a:hover::after{
   margin-right: 15px;
   color: #ababab;
   display: inline-block;
+  transition: transform 0.5s;
+}
+.social-icons a:hover{
+  color: #ff004f;
+  transform: translateY(-5px);
 }
