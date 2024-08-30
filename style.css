@@ -333,6 +333,8 @@ nav ul{
    width: 200px;
    height: 100vh;
    padding-top: 50px;
+   z-index: 2;
+   transition: right 0.5px;
 }
 nav ul li{
    display: block;
