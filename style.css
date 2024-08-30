@@ -305,3 +305,8 @@ form .btn2{
 .copyright i{
    color: #ff004f;
 }
+/*------------------CSS for small devices-----------------*/
+
+@media only screen and (max-width:600px){
+   
+}
