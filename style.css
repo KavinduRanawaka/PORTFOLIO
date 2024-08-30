@@ -306,7 +306,7 @@ form .btn2{
    color: #ff004f;
 }
 /*------------------CSS for small devices-----------------*/
-nav .fa{
+nav .fas{
    display: none;
 }
 
@@ -321,7 +321,7 @@ nav .fa{
 .header-text h1{
    font-size: 30px;  
 }
-nav .fa{
+nav .fas{
    display: block;
    font-size: 25px;
 }
@@ -338,7 +338,7 @@ nav ul li{
    display: block;
    margin: 25px;
 }
-nav ul .fa{
+nav ul .fas{
    position: absolute;
    top: 25px;
    left: 25px;
