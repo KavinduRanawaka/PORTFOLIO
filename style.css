@@ -308,5 +308,7 @@ form .btn2{
 /*------------------CSS for small devices-----------------*/
 
 @media only screen and (max-width:600px){
-   
+   #header{
+     background-image: url();
+  }
 }
